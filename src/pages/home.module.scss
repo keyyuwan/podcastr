@@ -173,3 +173,64 @@
         }
     }
 }
+
+@media (max-width: 640px) {
+    .homepage {
+        height: calc(100vh - 9rem);
+        padding: 0 1rem;
+    }
+
+    .latestEpisodes {
+
+        h2 {
+            text-align: center;
+        }
+        
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            flex-direction: column;
+
+            img {
+                width: 300px;
+                height: 150px;
+            }
+
+            .episodeDetails {
+                margin: 1rem 0 0;
+                text-align: center;
+
+                p {
+                    margin: 0.7rem auto 0.5rem;
+                }
+            }
+        }
+
+    }
+
+    .allEpisodes {
+
+        padding: 0;
+        overflow-x: auto;
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+
+            td {
+                height: 10rem;
+    
+                img {
+                    display: inline-block;
+                    height: 5rem;
+                    width: 5rem;
+                }
+            }
+        }
+    }
+}

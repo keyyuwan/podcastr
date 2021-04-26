@@ -5,3 +5,9 @@
         flex: 1;
     }
 }
+
+@media (max-width: 640px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}

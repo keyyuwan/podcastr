@@ -135,3 +135,31 @@
         }
     }
 }
+
+@media (max-width: 640px) {
+    .playerContainer {
+        width: 100vw;
+        height: 100%;
+        padding: 2rem 3rem;
+    }
+
+    .currentEpisode {
+        margin-top: 2rem;
+    }
+
+    .progress {
+        margin-top: 2rem;
+
+        span:first-child {
+            margin-right: 0.6rem;
+        }
+
+        span:last-child {
+            margin-left: 0.6rem;
+        }
+    }
+
+    .buttons {
+        justify-content: space-between;
+    }
+}
