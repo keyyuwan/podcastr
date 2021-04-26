@@ -3,6 +3,10 @@
     height: calc(100vh - 6.5rem);
     overflow-y: auto;
 
+    &.dark {
+        background: var(--dark);
+    }
+
     h2 {
         margin-top: 3rem;
         margin-bottom: 1.5rem;
@@ -10,6 +14,33 @@
 }
 
 .latestEpisodes {
+
+    &.dark {
+        h2 {
+            color: white;
+        }
+
+        li {
+            background: var(--light-dark);
+            border: 0;
+
+            button {
+                background: var(--dark);
+                border: 0;
+            }
+
+            .episodeDetails {
+                a {
+                    color: var(--gray-100);
+                }
+
+                p, span {
+                    color: #c5cad8;
+                }
+            }
+        }
+    }
+
     ul {
         list-style: none;
         display: grid;
@@ -113,6 +144,40 @@
 
 .allEpisodes {
     padding-bottom: 2rem;
+
+    &.dark {
+        h2 {
+            color: white;
+        }
+
+        table {
+
+            background: var(--light-dark);
+            border-radius: 1rem;
+            padding: 1.5rem;
+
+            th, td {
+                border-bottom: 1px solid var(--gray-500);
+            }
+
+            th {
+                color: var(--gray-200);
+            }
+
+            td {
+                color: #c5cad8;
+
+                button {
+                    background: var(--dark);
+                    border: 0;
+                }
+            }
+
+            td a {
+                color: var(--gray-100);
+            }
+        }
+    }
 
     table {
         width: 100%;

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useRef, useEffect, useState } from 'react'
 import { usePlayer } from '../../contexts/PlayerContext'
+import { useTheme } from '../../contexts/ThemeContext'
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString'
 
 import Slider from 'rc-slider'
@@ -29,6 +30,8 @@ export function Player() {
         hasNext,
         clearPlayerState
     } = usePlayer()
+
+    const { isDark } = useTheme()
 
     useEffect(() => {
         // current é o valor da ref
@@ -69,7 +72,9 @@ export function Player() {
     const episode = episodeList[currentEpisodeIndex]
 
     return (
-        <div className={styles.playerContainer}>
+        <div 
+        className={isDark ? `${styles.playerContainer} ${styles.dark}` : styles.playerContainer}
+        >
             <header>
                 <img src="/playing.svg" alt="Tocando agora"/>
                 <strong>Tocando agora</strong>

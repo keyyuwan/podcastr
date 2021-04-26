@@ -11,6 +11,14 @@
     align-items: center;
     justify-content: space-between;
 
+    &.dark {
+        background: #592ac7;
+
+        .emptyPlayer {
+            background: linear-gradient(143.8deg, rgba(120, 68, 242, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        }
+    }
+
     header {
         display: flex;
         align-items: center;
@@ -143,7 +151,7 @@
         padding: 2rem 3rem;
     }
 
-    .currentEpisode {
+    .currentEpisode, .emptyPlayer {
         margin-top: 2rem;
     }
 
