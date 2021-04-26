@@ -5,6 +5,7 @@
 # 📸 Overview:
 ![](./public/gifs/pod1.gif)
 ![](./public/gifs/pod2.gif)
+![](./public/gifs/darkMode.gif)
 
 # 💻 Project:
 • Podcastr é um projeto desenvolvido na Trilha ReactJS na quinta edição da NLW, elaborada pela Rocketseat. O projeto nos permite ouvir podcasts e lermos sobre cada um deles; <br /> <br />
