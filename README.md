@@ -13,6 +13,7 @@
 • As páginas são geradas de forma estática (SSG) e a renderização é feita no lado do servidor (SSR) graças ao framework Next.js. Esses recursos, além de melhorarem a performance da aplicação, ajudam no SEO; <br /> <br />
 • O Projeto, criado com ReactJS, tem a ideia de SPA (Single Page Application), em que o cabeçalho e player permanecem intactos na página enquanto o conteúdo no meio pode mudar. <br /> <br />
 • <strong>Fui além da aplicação original adicionando responsividade e tema dark ao projeto.</strong> <br />
+
 # 🚀 Technologies:
 ### ✔️ SASS
 ### ✔️ TypeScript
@@ -21,4 +22,21 @@
 ### ✔️ Next.js
 ### ✔️ Axios
 
+# How to run
 
+```
+# Clone this repository
+$ git clone https://github.com/keyyuwan/Podcastr
+
+# Go to the directory
+$ cd Podcastr
+
+# Install Dependencies
+$ yarn
+
+# Run Web Server
+$ yarn dev
+
+# Run Server
+$ yarn server
+```
