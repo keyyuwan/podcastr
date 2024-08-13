@@ -1,25 +1,24 @@
- 
-# Podcastr | NLW5 (ReactJS) 
 ![](./public/favicon.png)
 
-# 📸 Overview:
+Podcastr is an application that allows users to listen to podcasts episodes and read detailed information about each one.
+
+## 📸 Overview:
 ![](./public/gifs/pod1.gif)
 ![](./public/gifs/pod2.gif)
 ![](./public/gifs/darkMode.gif)
 
-# 💻 Project:
-• Podcastr é um projeto desenvolvido na Trilha ReactJS na quinta edição da NLW, elaborada pela Rocketseat. O projeto nos permite ouvir podcasts e lermos sobre cada um deles; <br /> <br />
-• A aplicação utiliza uma fakeAPI para buscar todos os dados dos podcasts. As requisições foram feitas usando Axios; <br /> <br />
-• As páginas são geradas de forma estática (SSG) e a renderização é feita no lado do servidor (SSR) graças ao framework Next.js. Esses recursos, além de melhorarem a performance da aplicação, ajudam no SEO; <br /> <br />
-• O Projeto, criado com ReactJS, tem a ideia de SPA (Single Page Application), em que o cabeçalho e player permanecem intactos na página enquanto o conteúdo no meio pode mudar. <br /> <br />
-• <strong>Fui além da aplicação original adicionando responsividade e tema dark ao projeto.</strong> <br />
+## 💻 Project:
+• Pages are statically generated (SSG) and server-side rendered (SSR) using the Next.js framework. These features not only enhance the application's performance but also improve its SEO; <br /> <br />
+• The application uses a fake API to fetch all podcast data, with requests handled by Axios; <br /> <br />
+• Built with ReactJS, the project follows the SPA (Single Page Application) concept, where the header and player remain consistent on the page while the central content changes; <br /> <br />
+• <strong>I extended the original application by adding responsiveness and a dark theme to the project.</strong> <br />
 
-# 🚀 Technologies:
-### ✔️ SASS
-### ✔️ TypeScript
+## 🚀 Technologies:
 ### ✔️ ReactJS
-### ✔️ React Hooks
 ### ✔️ Next.js
+### ✔️ TypeScript
+### ✔️ React Hooks
+### ✔️ SASS
 ### ✔️ Axios
 
 # How to run
