@@ -1,6 +1,6 @@
 ![](./public/favicon.png)
 
-Podcastr is an application that allows users to listen to podcasts episodes and read detailed information about each one.
+<strong>Podcastr</strong> is an application that allows users to listen to podcasts episodes and read detailed information about each one.
 
 ## 📸 Overview:
 ![](./public/gifs/pod1.gif)
@@ -11,7 +11,8 @@ Podcastr is an application that allows users to listen to podcasts episodes and 
 • Pages are statically generated (SSG) and server-side rendered (SSR) using the Next.js framework. These features not only enhance the application's performance but also improve its SEO; <br /> <br />
 • The application uses a fake API to fetch all podcast data, with requests handled by Axios; <br /> <br />
 • Built with ReactJS, the project follows the SPA (Single Page Application) concept, where the header and player remain consistent on the page while the central content changes; <br /> <br />
-• <strong>I extended the original application by adding responsiveness and a dark theme to the project.</strong> <br />
+• The project uses the native JavaScript Audio API to play the podcasts; <br /> <br />
+• I extended the original application by adding <strong>responsiveness</strong> and a <strong>dark theme</strong> to the project. <br />
 
 ## 🚀 Technologies:
 ### ✔️ ReactJS
